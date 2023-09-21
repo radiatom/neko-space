@@ -4,7 +4,7 @@ const ButtonContainer = styled.button`
     display: flex;
     padding: 1px;
     border-radius: 6px;
-    // border: 1px solid rgba(218, 41, 40, 1);
+    margin:0 5px;
     border: 1px solid
         ${(props) => {
             if (props.color === "red") {
@@ -15,7 +15,6 @@ const ButtonContainer = styled.button`
                 return "rgb(42,101,237)";
             }
         }};
-    // background: linear-gradient(0deg, rgba(218, 41, 40, 1) 23%, rgba(218, 41, 40, 0.4906337535014006) 100%);
     background: linear-gradient(
         0deg,
         ${(props) => {
