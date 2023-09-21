@@ -44,10 +44,9 @@ Error generating stack: `+o.message+`
     display: flex;
     padding: 1px;
     border-radius: 6px;
-    // border: 1px solid rgba(218, 41, 40, 1);
+    margin:0 5px;
     border: 1px solid
         ${e=>{if(e.color==="red")return"rgba(218, 41, 40, 1)";if(e.color==="black")return"rgb(49,54,54)";if(e.color==="blue")return"rgb(42,101,237)"}};
-    // background: linear-gradient(0deg, rgba(218, 41, 40, 1) 23%, rgba(218, 41, 40, 0.4906337535014006) 100%);
     background: linear-gradient(
         0deg,
         ${e=>{if(e.color==="red")return"rgba(218, 41, 40, 1) 23%,rgba(235,104,108)";if(e.color==="black")return"rgb(49,54,54) 23%, rgb(106,110,110)";if(e.color==="blue")return"rgb(42,101,237) 23%, rgb(128,160,236)"}}100%
