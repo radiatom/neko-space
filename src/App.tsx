@@ -10,7 +10,10 @@ const AppWraper = styled.div`
 function App() {
     return (
         <AppWraper>
-            <Button>Button</Button>
+            <Button color={"blue"}>Button</Button>
+            <Button color={"red"}>Button</Button>
+            <Button color={"black"}>Button</Button>
+
         </AppWraper>
     );
 }
